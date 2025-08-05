@@ -8,20 +8,20 @@
     <script type="module" crossorigin src="/goit-js-hw-12/index.js"></script>
     <link rel="modulepreload" crossorigin href="/goit-js-hw-12/assets/vendor-5YrzWRhu.js">
     <link rel="stylesheet" crossorigin href="/goit-js-hw-12/assets/vendor-CWKLx11g.css">
-    <link rel="stylesheet" crossorigin href="/goit-js-hw-12/assets/index-DvPDDfy5.css">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-12/assets/index-C2G2hoXH.css">
   </head>
   <body>
     <form class="form">
       <label>
-        <input type="text" name="search-text" placeholder="Search images..." required />
+        <input type="text" name="search-text" placeholder="Search images..." required class="form-input"/>
       </label>
-      <button type="submit">Search</button>
+      <button type="submit" class="form-btn">Search</button>
     </form>
 
-<ul class="gallery"></ul>
+    <ul class="gallery"></ul>
 
-<button class="load-more hidden">Load more</button>
-<div class="loader hidden">Loading...</div>
+    <button class="load-more hidden">Load more</button>
+    <span id="loader" class="loader hidden"></span>
 
   </body>
 </html>
